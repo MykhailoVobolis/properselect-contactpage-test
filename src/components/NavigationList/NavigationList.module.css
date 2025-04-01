@@ -1,0 +1,14 @@
+.navMenu {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.navMenu li {
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.active {
+  font-weight: 800;
+}
