@@ -11,9 +11,19 @@ export default function Contact() {
             <h1 className={css.title}>
               We're here to help you every step of the way.
             </h1>
+            <div className={css.onDeskWrapper}>
+              <SocialList />
+            </div>
+            <div className={css.onMobWrapper}>
+              <ContactForm />
+            </div>
+          </div>
+          <div className={css.onMobWrapper}>
             <SocialList />
           </div>
-          <ContactForm />
+          <div className={css.onDeskWrapper}>
+            <ContactForm />
+          </div>
         </div>
       </section>
     </div>

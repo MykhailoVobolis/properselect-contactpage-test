@@ -21,14 +21,30 @@
 .title::after {
   content: '';
   position: absolute;
-  top: 784px;
+  top: 903px;
   background: #98a5c8;
   width: 335px;
   height: 1px;
   display: block;
 }
 
+.onDeskWrapper {
+  display: none;
+}
+
+.onMobWrapper {
+  display: block;
+}
+
 @media screen and (min-width: 1440px) {
+  .onDeskWrapper {
+    display: block;
+  }
+
+  .onMobWrapper {
+    display: none;
+  }
+
   .section {
     padding-top: 56px;
     padding-bottom: 120px;
