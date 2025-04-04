@@ -5,7 +5,11 @@ import css from './BurgerButton.module.css';
 
 export default function BurgerButton() {
   return (
-    <Link className={css.burgerBtn} href="/contact">
+    <Link
+      className={css.burgerBtn}
+      href="/contact"
+      aria-label={`Go to contact page`}
+    >
       <RxHamburgerMenu size={24} />
     </Link>
   );
