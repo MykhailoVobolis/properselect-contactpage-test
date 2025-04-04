@@ -3,3 +3,17 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.navigationWrapper {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .navigationWrapper {
+    display: block;
+  }
+
+  .burgerWrapper {
+    display: none;
+  }
+}

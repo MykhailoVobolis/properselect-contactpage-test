@@ -1,3 +1,9 @@
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .inputGroup {
   display: flex;
   flex-direction: column;
@@ -9,4 +15,14 @@
   color: var(--accentcolor);
   position: absolute;
   font-size: 14px;
+}
+
+@media screen and (min-width: 1440px) {
+  .contactForm {
+    align-items: start;
+  }
+
+  .inputGroup {
+    margin-bottom: 35px;
+  }
 }

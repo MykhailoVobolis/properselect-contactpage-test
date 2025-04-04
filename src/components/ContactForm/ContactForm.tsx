@@ -42,7 +42,7 @@ export default function ContactForm() {
       onSubmit={handleSubmit}
     >
       {({ touched, errors }) => (
-        <Form>
+        <Form className={css.contactForm}>
           <div className={css.inputGroup}>
             <div className={css.inputItem}>
               <InputField label="*Name" name="name" />

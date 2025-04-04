@@ -1,5 +1,11 @@
 .header {
-  padding: 35px 0;
+  padding: 30px 0;
   box-shadow: 0 7px 12px 0 rgba(100, 100, 111, 0.05);
   background-color: #ffffff;
+}
+
+@media screen and (min-width: 1440px) {
+  .header {
+    padding: 35px 0;
+  }
 }
