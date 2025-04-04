@@ -1,9 +1,10 @@
 import React from 'react';
 import type { Metadata } from 'next';
 import { Mulish } from 'next/font/google';
+import { Toaster } from 'react-hot-toast';
 import AppBar from '@/components/AppBar/AppBar';
 import Breadcrumbs from '@/components/Breadcrumbs/Breadcrumbs';
-import { Toaster } from 'react-hot-toast';
+import Footer from '@/components/Footer/Footer';
 
 import './globals.css';
 
@@ -25,11 +26,20 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={font.className}>
-        <AppBar />
-        <main>
-          <Breadcrumbs />
-          {children}
-        </main>
+        <div
+          style={{
+            minHeight: '100vh',
+            display: 'flex',
+            flexDirection: 'column',
+          }}
+        >
+          <AppBar />
+          <main style={{ flexGrow: 1 }}>
+            <Breadcrumbs />
+            {children}
+          </main>
+          <Footer />
+        </div>
         <Toaster position="top-right" />
       </body>
     </html>
