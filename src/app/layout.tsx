@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { Mulish } from 'next/font/google';
 import AppBar from '@/components/AppBar/AppBar';
 import Breadcrumbs from '@/components/Breadcrumbs/Breadcrumbs';
+import { Toaster } from 'react-hot-toast';
 
 import './globals.css';
 
@@ -29,6 +30,7 @@ export default function RootLayout({
           <Breadcrumbs />
           {children}
         </main>
+        <Toaster position="top-right" />
       </body>
     </html>
   );

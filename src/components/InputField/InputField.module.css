@@ -1,0 +1,42 @@
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.labelText {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.3;
+  margin-left: 8px;
+}
+
+.inputItem {
+  border: none;
+  border-radius: 12px;
+  width: 608px;
+  height: 50px;
+  background-color: #ffffff;
+  padding: 0 16px;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1.3;
+  color: #213669;
+  outline: transparent;
+  outline-offset: 4px;
+}
+
+.textareaItem {
+  border: none;
+  border-radius: 12px;
+  width: 608px;
+  background-color: #ffffff;
+  padding: 12px 16px;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1.3;
+  color: #213669;
+  outline: transparent;
+  outline-offset: 4px;
+  resize: none;
+}

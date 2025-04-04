@@ -1,0 +1,12 @@
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.error {
+  color: var(--accentcolor);
+  position: absolute;
+  font-size: 14px;
+}

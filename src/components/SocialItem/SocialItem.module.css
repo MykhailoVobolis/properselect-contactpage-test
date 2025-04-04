@@ -1,0 +1,13 @@
+.socialLinkWrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.socialIcon {
+  fill: var(--foreground);
+}
+
+.itemName {
+  font-weight: 600;
+}

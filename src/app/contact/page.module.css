@@ -3,6 +3,11 @@
   padding-bottom: 120px;
 }
 
+.sectionContainer {
+  display: flex;
+  gap: 90px;
+}
+
 .title {
   position: relative;
   font-weight: 700;

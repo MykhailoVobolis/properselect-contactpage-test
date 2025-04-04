@@ -1,0 +1,19 @@
+.formButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: var(--accentcolor);
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 800;
+  line-height: 1.3;
+  border: none;
+  border-radius: 100px;
+  width: 292px;
+  height: 60px;
+}
+
+.iconButton {
+  fill: #ffffff;
+}
